@@ -1,6 +1,12 @@
 @echo off
 cls
-
+rem How to use this script
+rem 1. Download to desktop
+rem 2. Use Notepad to change <userid> to your windows login name
+rem 3. Save
+rem 4. Make sure file type is BAT
+rem 5. Double click to launch.
+rem 
 rem set today=%date:~10,4%%date:~4,2%%date:~7,2%
 rem set today=%date:~7,2%-%date:~4,2%-%date:~10,4%_%time:~0,2%_%time:~3,2%_%time:~6,2%
 rem set today=PSR-%date:~10,4%%date:~7,2%%date:~4,2%%time:~0,2%%time:~3,2%%time:~6,2%
