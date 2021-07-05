@@ -13,7 +13,7 @@ rem set today=PSR-%date:~10,4%%date:~7,2%%date:~4,2%%time:~0,2%%time:~3,2%%time:
 set hh=%time:~0,2%
 if "%time:~0,1%"==" " set hh=0%hh:~1,1%   
 
-set today=PSR-%date:~10,4%%date:~7,2%%date:~4,2%_%hh%_%time:~3,2%_%time:~6,2%
+set today=PSR-%date:~11,4%%date:~7,3%%date:~4,2%_%hh%_%time:~3,2%_%time:~6,2%
 echo Today date =%today% and start Steps Recorder
 echo 
 echo "WARNING !!!!"
